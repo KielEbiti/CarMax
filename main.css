@@ -350,15 +350,18 @@ input,button,textarea::placeholder{
 
 }
 
-@media screen and(min-width:776px) {
-    .contact{
-        flex: 0 0 50%;
+@media screen and (min-width:776px) {
+    .contact-card{
+        max-width: 50%;
+        border-radius: 5%;  
+        padding: 20px 0;
     }
+    
     
 }
 
 
 
 
-
+/* FOOTER BACKGROUND*/
 linear-gradient(to right top, #4e3f48, #423741, #36303a, #2b2832, #20212a, #252933, #2a323d, #2e3b46, #445964, #5b7983, #759ba0, #92bebc);
