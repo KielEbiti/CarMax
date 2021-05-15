@@ -377,6 +377,10 @@ input,button,textarea::placeholder{
     background-image: linear-gradient(to right top, #4e3f48, #423741, #36303a, #2b2832, #20212a, #252933, #2a323d, #2e3b46, #445964, #5b7983, #759ba0, #92bebc);
 }
 .awesome-wrapper-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 38px;
     transition: transform 1s ease;
